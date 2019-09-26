@@ -51,6 +51,29 @@ let name = firstName + " " + middleName + " " + lastName;
 console.log(name);
 
 
+console.log("String on my own");
+
+let gretting = "My name is" + " " + name;
+console.log(gretting);
+
+console.log("Using Functions:");
+
+//function to square numbers
+function makeSquare(theNumb) {
+    let squared = theNumb * theNumb;
+    return squared;
+}
+
+let try01 = makeSquare(3);
+console.log(try01);
+
+function makeName(first, middle ,last) {
+let fullName = first + " " + middle + " " + last;
+return fullName;
+} 
+
+console.log(makeName("John", "Fitzgerald", "Kennedy"));
+console.log(makeName("Robert", "\"Beto\"", "O'Rourke"));
 
 </script>
 </body>
